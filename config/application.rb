@@ -9,6 +9,9 @@ Bundler.require(*Rails.groups)
 module SimplySeamlessEventsApp2
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
+    config.assets.paths << Rails.root.join('vendor','assets', 'fonts','clever')
+    config.assets.enabled = true
+    config.serve_static_assets = true
     config.load_defaults 5.2
 
     # Settings in config/environments/* take precedence over those specified here.
