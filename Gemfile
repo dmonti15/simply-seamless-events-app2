@@ -32,11 +32,11 @@ group :assets do
   gem 'coffee-rails', '~> 4.2'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
-  # gem 'therubyracer'
+  gem 'therubyracer'
 
   # Use Uglifier as compressor for JavaScript assets
   gem 'uglifier', '>= 1.3.0'
-  gem 'twitter-bootstrap-rails', '~> 4.0'
+  gem 'twitter-bootstrap-rails'
 end
 
 
